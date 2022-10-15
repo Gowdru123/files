@@ -58,6 +58,9 @@ async def handler(e):
         return
 
     links = await link_extractor(caption)
+    if not links:
+        await client.send_message(chat, "<b>No Links Found In Message 😵</b>")
+        return
     if len(links) > 50:
         await client.send_message(chat,"<b>😔 Sorry Mate U Can Only Convert 50 Links Per Post.</b>")
         return
