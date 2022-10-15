@@ -402,6 +402,10 @@ START_BACK_BUTTON = [
     ],   
 ]
 
+@bot.on_callback_query(filters.regex("close"))
+async def delete(_, query):
+    await query.message.delete()
+
 @Bot.on_callback_query(filters.regex("HELP_BUT"))
 async def help(_, query: CallbackQuery):
     await query.edit_message_caption(HELP_TEXT,
