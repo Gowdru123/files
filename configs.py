@@ -2,7 +2,6 @@
 
 import os
 from f import *
-from data_shorten import *
 
 
 class Config(object):
