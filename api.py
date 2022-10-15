@@ -1,5 +1,6 @@
 from configs import Config
 from plugins.add_user_to_db import add_user_to_database
+from handlers.users_api import get_user, update_user_info
 from pyrogram import (
     Client,
     enums,
