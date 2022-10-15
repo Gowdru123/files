@@ -1,6 +1,6 @@
 import aiohttp
 import re
-from configs import *
+from c import *
 from data_shorten import *
 
 # GLOBAL-VAR
