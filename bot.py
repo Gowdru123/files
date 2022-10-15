@@ -418,7 +418,7 @@ HELP_BUTTON = [
         ],
         [
             InlineKeyboardButton("Hᴇʟᴘ 🔘", callback_data="HELP_BUT"),
-            InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="ABOUT_ME"),
+            InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="ABOUT_BUT"),
         ],
         [
             InlineKeyboardButton("Bᴀᴄᴋ", callback_data="START_BACK"),
@@ -436,7 +436,7 @@ ABOUT_BUTTON = [
         ],
         [
             InlineKeyboardButton("Hᴇʟᴘ", callback_data="HELP_BUT"),
-            InlineKeyboardButton("Aʙᴏᴜᴛ 🔘", callback_data="ABOUT_ME"),
+            InlineKeyboardButton("Aʙᴏᴜᴛ 🔘", callback_data="ABOUT_BUT"),
         ],
         [
             InlineKeyboardButton("Bᴀᴄᴋ", callback_data="START_BACK"),
