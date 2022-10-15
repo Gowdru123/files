@@ -2,7 +2,7 @@ import aiohttp
 import re
 from b import *
 from c import *
-from d import *
+from database.url_db import *
 from e import *
 
 # GLOBAL-VAR
