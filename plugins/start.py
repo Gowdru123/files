@@ -42,11 +42,11 @@ START_BUTTON = [
 ]
 
 @bot.on_callback_query(filters.regex("START_BACK"))
-async def help(_, query: CallbackQuery):
+async def start_back(_, query: CallbackQuery):
     await query.edit_message_caption(START_TEXT,
-       reply_markup=InlineKeyboardMarkup(START_BUTTON))
+       reply_markup=InlineKeyboardMarkup(START_BACK_BUTTON))
 
-HELP_BUTTON = [
+START_BACK_BUTTON = [
         [
             InlineKeyboardButton("Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ", url="https://tamizhmasters.com/member/tools/api"),
         ],
@@ -73,7 +73,25 @@ HELP_BUTTON = [
             InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="ABOUT_ME"),
         ],
         [
-            InlineKeyboardButton("Bᴀᴄᴋ", callback_data="HELP_BACK"),
+            InlineKeyboardButton("Bᴀᴄᴋ", callback_data="START_BACK"),
+    ],   
+]
+
+@bot.on_callback_query(filters.regex("ABOUT_BUT"))
+async def about(_, query: CallbackQuery):
+    await query.edit_message_caption(ABOUT_TEXT,
+       reply_markup=InlineKeyboardMarkup(ABOUT_BUTTON))
+
+ABOUT_BUTTON = [
+        [
+            InlineKeyboardButton("Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ", url="https://tamizhmasters.com/member/tools/api"),
+        ],
+        [
+            InlineKeyboardButton("Hᴇʟᴘ", callback_data="HELP_BUT"),
+            InlineKeyboardButton("Aʙᴏᴜᴛ 🔘", callback_data="ABOUT_ME"),
+        ],
+        [
+            InlineKeyboardButton("Bᴀᴄᴋ", callback_data="START_BACK"),
     ],   
 ]
 
