@@ -20,6 +20,9 @@ class Config(object):
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
 	BASE_SITE = os.environ.get("BASE_SITE", "tamizhmasters.com")
 	DOMAIN = os.environ.get("DOMAIN", "tamizhmasters.com")
+        ADMINS = os.environ.get("ADMINS")
+        PUBLIC_FILE_STORE = os.environ.get("PUBLIC_FILE_STORE")
+        FILE_STORE_CHANNEL = os.environ.get("FILE_STORE_CHANNEL")
 	ABOUT_BOT_TEXT = f"""
 This is Permanent Files Store Bot!
 Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
