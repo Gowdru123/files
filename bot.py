@@ -83,26 +83,7 @@ async def start(bot: Client, cmd: Message):
     usr_cmd = cmd.text.split("_", 1)[-1]
     if usr_cmd == "/start":
         await add_user_to_database(bot, cmd)
-        await cmd.reply_text(
-            Config.HOME_TEXT.format(cmd.from_user.first_name, cmd.from_user.id),
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton("⚡ 𝖢𝖫𝖨𝖢𝖪 𝖳𝖮 𝖢𝖮𝖭𝖭𝖤𝖢𝖳 ⚡", url="https://tamizhmasters.com/member/tools/api")
-                    ],
-                    [
-                        InlineKeyboardButton("❓ 𝖧𝖮𝖶 𝖳𝖮 𝖢𝖮𝖭𝖭𝖤𝖢𝖳 ❓", url="https://tamizhmasters.com/member/tools/api")
-                    ],
-                    [
-                        InlineKeyboardButton("⚙️ ʜᴏᴡ ᴛᴏ ᴜsᴇ ⚙️", url="https://tamizhmasters.com/member/tools/api")
-                    ],
-                    [
-                        InlineKeyboardButton("✅ 𝖠𝖡𝖮𝖴𝖳 𝖡𝖮𝖳 ✅", callback_data="aboutdevs")
-                    ]
-                ]
-            )
-        )
+
     else:
         try:
             try:
