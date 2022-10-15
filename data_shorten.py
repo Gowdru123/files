@@ -1,8 +1,8 @@
 from pymongo import MongoClient
-from configs import Config
+from c import *
 from client import *
 
-myclient = MongoClient(DATABASE_URL)
+myclient = MongoClient(DB_URI)
 db = myclient['mydb']
 apiDB = db['api']
 
