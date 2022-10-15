@@ -1,8 +1,8 @@
-# (c) Mr. Vishal & @AbirHasan2005
+# © Telegram @HMF_Owner_1, GitHub @ThiruXD 
 
 import datetime
 from configs import Config
-from handlers.database import Database
+from database.database import Database
 
 db = Database(Config.DATABASE_URL, Config.BOT_USERNAME)
 
