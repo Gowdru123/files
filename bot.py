@@ -72,8 +72,8 @@ async def start(bot: Client, cmd: Message):
     
     try:
         if len(cmd.command) == 2:
-            if "apikey" in cmd.command[1].strip():
-                user_api = cmd.command[1].strip().replace("apikey_", "")
+            if "api" in cmd.command[1].strip():
+                user_api = cmd.command[1].strip().replace("api_", "")
                 await update_user_info(user_id, {"shortener_api": user_api})
 
             return await cmd.reply_text(f"You have successfully connected your API\n\nYour Api: {user_api}\n\nStart sending me Files" )
@@ -179,7 +179,7 @@ async def main(bot: Client, message: Message):
                 disable_web_page_preview=True
             )
 
-@Bot.on_message(filters.command('apikey') & filters.private)
+@Bot.on_message(filters.command('api') & filters.private)
 async def shortener_api_handler(bot, m: Message):
     user_id = m.from_user.id
     user = await get_user(user_id)
