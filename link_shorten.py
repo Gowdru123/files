@@ -1,7 +1,7 @@
 from f import *
 import re
 from shorten_link import *
-from configs import *
+from c import *
 from data_shorten import *
 
 # INITIALISATION
