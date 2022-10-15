@@ -86,7 +86,5 @@ ABOUT_TEXT = """🤖 Name :  Tamizh Masters Link Convertor
 
 ©️Powered By @simplysouth_links """
 
-client = TelegramClient('ShortUrlLink', API_ID, API_HASH).start(
-    bot_token=BOT_TOKEN)
 
 
