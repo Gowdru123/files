@@ -1,10 +1,8 @@
 from f import *
 import re
-from a import *
-from b import *
-from c import *
-from d import *
-from e import *
+from shorten_link import *
+from configs import *
+from data_shorten import *
 
 # INITIALISATION
 client.parse_mode = 'html'
@@ -17,7 +15,7 @@ welcome_re = re.compile('/start', re.IGNORECASE)
 async def welcome(e):
     chat = await e.get_chat()
     if e.raw_text.lower() == "/start":
-        await client.send_message(chat, start_message.format(chat.first_name), buttons=start_button, link_preview=False)
+        await client.send_message(chat, link_preview=False)
         return
     try:
         api_key = e.raw_text.split(' ')[1]
@@ -115,14 +113,14 @@ async def rem_user(e):
 @client.on(events.CallbackQuery(pattern="abt"))
 async def rem_user(e):
     mess = await e.get_message()
-    await client.edit_message(mess, about_text, buttons=back_button)
+    await client.edit_message(mess)
 
 
 @client.on(events.CallbackQuery(pattern="back"))
 async def rem_user(e):
     mess = await e.get_message()
     chat = await e.get_chat()
-    await client.edit_message(mess, start_message.format(chat.first_name), buttons=start_button, link_preview=False)
+    await client.edit_message(mess, link_preview=False)
 
 
 client.run_until_disconnected()
