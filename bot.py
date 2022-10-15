@@ -339,6 +339,61 @@ async def clear_user_batch(bot: Client, m: Message):
     MediaList[f"{str(m.from_user.id)}"] = []
     await m.reply_text("Cleared your batch files successfully!")
 
+@bot.on_callback_query(filters.regex("START_BACK"))
+async def start_back(_, query: CallbackQuery):
+    await query.edit_message_caption(START_TEXT,
+       reply_markup=InlineKeyboardMarkup(START_BACK_BUTTON))
+
+START_BACK_BUTTON = [
+        [
+            InlineKeyboardButton("Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ", url="https://tamizhmasters.com/member/tools/api"),
+        ],
+        [
+            InlineKeyboardButton("Hᴇʟᴘ", callback_data="HELP_BUT"),
+            InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="ABOUT_ME"),
+        ],
+        [
+            InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close"),
+    ],   
+]
+
+@bot.on_callback_query(filters.regex("HELP_BUT"))
+async def help(_, query: CallbackQuery):
+    await query.edit_message_caption(HELP_TEXT,
+       reply_markup=InlineKeyboardMarkup(HELP_BUTTON))
+
+HELP_BUTTON = [
+        [
+            InlineKeyboardButton("Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ", url="https://tamizhmasters.com/member/tools/api"),
+        ],
+        [
+            InlineKeyboardButton("Hᴇʟᴘ 🔘", callback_data="HELP_BUT"),
+            InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="ABOUT_ME"),
+        ],
+        [
+            InlineKeyboardButton("Bᴀᴄᴋ", callback_data="START_BACK"),
+    ],   
+]
+
+@bot.on_callback_query(filters.regex("ABOUT_BUT"))
+async def about(_, query: CallbackQuery):
+    await query.edit_message_caption(ABOUT_TEXT,
+       reply_markup=InlineKeyboardMarkup(ABOUT_BUTTON))
+
+ABOUT_BUTTON = [
+        [
+            InlineKeyboardButton("Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ", url="https://tamizhmasters.com/member/tools/api"),
+        ],
+        [
+            InlineKeyboardButton("Hᴇʟᴘ", callback_data="HELP_BUT"),
+            InlineKeyboardButton("Aʙᴏᴜᴛ 🔘", callback_data="ABOUT_ME"),
+        ],
+        [
+            InlineKeyboardButton("Bᴀᴄᴋ", callback_data="START_BACK"),
+    ],   
+]
+
+        
 
 @Bot.on_callback_query()
 async def button(bot: Client, cmd: CallbackQuery):
