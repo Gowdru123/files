@@ -1,5 +1,5 @@
-from configs import config
+from c import *
 
-client = TelegramClient('ShortUrlLink', API_ID, API_HASH).start(
+client = TelegramClient('ShortUrlLink', APP_ID, API_HASH).start(
     bot_token=BOT_TOKEN)
 
