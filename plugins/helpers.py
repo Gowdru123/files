@@ -1,5 +1,3 @@
-# (c) @ballicipluck & @AbirHasan2005
-
 from base64 import standard_b64encode, standard_b64decode
 from shortzy import Shortzy
 from configs import Config
