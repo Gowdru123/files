@@ -1,6 +1,8 @@
 # © Telegram @HMF_Owner_1, GitHub @ThiruXD 
 
 import os
+from f import *
+from data_shorten import *
 
 
 class Config(object):
