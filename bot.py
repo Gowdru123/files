@@ -44,11 +44,11 @@ MediaList = {}
 
 START_MEDIA = "https://telegra.ph/file/d20dee1ba93fc0b0c05ac.jpg"
 
-START_TEXT = """Hɪ/Hᴇʟʟᴏ [{}](tg://user?id={})
+START_TEXT = """**Hɪ/Hᴇʟʟᴏ [{}](tg://user?id={})**
 
 I'ᴍ Uʟᴛʀᴀ Fᴀsᴛ Tᴇʟᴇɢʀᴀᴍ Cᴏᴜʟᴅ Sᴛᴏʀᴀɢᴇ Bᴏᴛ  Fᴏʀ [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com). Sᴇɴᴅ Mᴇ Aɴʏ Fɪʟᴇs/Lɪɴᴋs Aɴᴅ Sᴇʟᴇᴄᴛ Mᴇᴛʜᴏᴅ Wᴀɪᴛ Fᴇᴡ Sᴇᴄᴏɴᴅs Bᴏᴛ Wɪʟʟ Bᴇ Uᴘʟᴏᴀᴅ Tᴏ Oᴜʀ Sᴇʀᴠᴇʀ Aɴᴅ Gᴇɴᴀʀᴀᴛᴇ  [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com) ......
 
-Cᴜʀʀᴇɴᴛʟʏ Sᴜᴘᴘᴏʀᴛᴇᴅ Fᴏʀᴍᴀᴛs :
+**Cᴜʀʀᴇɴᴛʟʏ Sᴜᴘᴘᴏʀᴛᴇᴅ Fᴏʀᴍᴀᴛs** :
 
 • Lɪɴᴋs - Aʟsᴏ Sᴜᴘᴘᴏʀᴛ Bᴜʟᴋ Lɪɴᴋs 
 • Fɪʟᴇs - Sᴜᴘᴘᴏʀᴛᴇᴅ Uᴘ Tᴏ 4GB
@@ -61,7 +61,7 @@ Mᴏʀᴇ Fᴏʀᴍᴀᴛs Cᴏᴍᴍɪɴɢ Sᴏᴏɴ ......
 Pᴏᴡᴇʀᴇᴅ Bʏ - [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](https://tamizhmasters.com)"""
 
 ABOUT_BOT_TEXT = f"""
-This is Permanent Files Store Bot!
+This is Permanent File/Links Store Bot!
 Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
 🤖 **My Name:** [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](https://t.me/tmfile_short_bot)
@@ -139,7 +139,7 @@ async def start(bot: Client, cmd: Message):
                 ],
                 [
                     InlineKeyboardButton("Hᴇʟᴘ", callback_data="HELP_BUT"),
-                    InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="ABOUT_ME"),
+                    InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="ABOUT_BUT"),
                 ],
                 [
                     InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close"),
@@ -396,7 +396,7 @@ START_BACK_BUTTON = [
         ],
         [
             InlineKeyboardButton("Hᴇʟᴘ", callback_data="HELP_BUT"),
-            InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="ABOUT_ME"),
+            InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="ABOUT_BUT"),
         ],
         [
             InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close"),
