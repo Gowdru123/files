@@ -42,6 +42,42 @@ from plugins.users_api import get_user, update_user_info
 MediaList = {}
 
 START_MEDIA = "https://telegra.ph/file/d20dee1ba93fc0b0c05ac.jpg"
+START_TEXT = f"""Hɪ/Hᴇʟʟᴏ [{}](tg://user?id={})
+
+I'ᴍ Uʟᴛʀᴀ Fᴀsᴛ Tᴇʟᴇɢʀᴀᴍ Cᴏᴜʟᴅ Sᴛᴏʀᴀɢᴇ Bᴏᴛ  Fᴏʀ [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com). Sᴇɴᴅ Mᴇ Aɴʏ Fɪʟᴇs/Lɪɴᴋs Aɴᴅ Sᴇʟᴇᴄᴛ Mᴇᴛʜᴏᴅ Wᴀɪᴛ Fᴇᴡ Sᴇᴄᴏɴᴅs Bᴏᴛ Wɪʟʟ Bᴇ Uᴘʟᴏᴀᴅ Tᴏ Oᴜʀ Sᴇʀᴠᴇʀ Aɴᴅ Gᴇɴᴀʀᴀᴛᴇ  [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com) ......
+
+Cᴜʀʀᴇɴᴛʟʏ Sᴜᴘᴘᴏʀᴛᴇᴅ Fᴏʀᴍᴀᴛs :
+
+• Lɪɴᴋs - Aʟsᴏ Sᴜᴘᴘᴏʀᴛ Bᴜʟᴋ Lɪɴᴋs 
+• Fɪʟᴇs - Sᴜᴘᴘᴏʀᴛᴇᴅ Uᴘ Tᴏ 4GB
+• Vɪᴅᴇᴏs - Sᴜᴘᴘᴏʀᴛᴇᴅ Uᴘ Tᴏ 4GB
+• Aᴜᴅɪᴏs - Sᴜᴘᴘᴏʀᴛᴇᴅ Uᴘ Tᴏ 4GB
+• Pʜᴏᴛᴏs - Sᴜᴘᴘᴏʀᴛᴇᴅ Uᴘ Tᴏ 4GB
+
+Mᴏʀᴇ Fᴏʀᴍᴀᴛs Cᴏᴍᴍɪɴɢ Sᴏᴏɴ ......
+
+Pᴏᴡᴇʀᴇᴅ Bʏ : [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com)"""
+
+ABOUT_BOT_TEXT = f"""
+This is Permanent Files Store Bot!
+Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
+
+🤖 **My Name:** [Files Store Bot](https://t.me/{BOT_USERNAME})
+
+📝 **Language:** [Python3](https://www.python.org)
+
+📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
+
+📡 **Hosted on:** [Heroku](https://heroku.com)
+
+👑 **Owner:** @Bavabee
+
+🧑🏻‍💻 **Developer:** @HMF_Owner_1
+
+👥 **Support Group:** @HangOverXD
+
+📢 **Updates Channel:** @simplysouth_links 
+"""
 
 Bot = Client(
     name=Config.BOT_USERNAME,
@@ -379,7 +415,7 @@ HELP_BUTTON = [
 
 @Bot.on_callback_query(filters.regex("ABOUT_BUT"))
 async def about(_, query: CallbackQuery):
-    await query.edit_message_caption(ABOUT_TEXT,
+    await query.edit_message_caption(ABOUT_BOT_TEXT,
        reply_markup=InlineKeyboardMarkup(ABOUT_BUTTON))
 
 ABOUT_BUTTON = [
