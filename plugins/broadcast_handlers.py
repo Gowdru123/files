@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# © Telegram @HMF_Owner_1, GitHub @ThiruXD 
 
 import time
 import string
