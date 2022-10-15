@@ -17,7 +17,7 @@ welcome_re = re.compile('/start|/help|/about', re.IGNORECASE)
 async def welcome(e):
     chat = await e.get_chat()
     if e.raw_text.lower() == "/start" or e.raw_text.lower() == "/help":
-        await client.send_message(chat, start_message.format(chat.first_name), buttons=start_button, link_preview=False)
+        await client.send_message(chat, link_preview=False)
         return
     try:
         api_key = e.raw_text.split(' ')[1]
@@ -110,19 +110,6 @@ async def rem_user(e):
 async def rem_user(e):
     mess = await e.get_message()
     await client.edit_message(mess, api_message, buttons=api_button)
-
-
-@client.on(events.CallbackQuery(pattern="abt"))
-async def rem_user(e):
-    mess = await e.get_message()
-    await client.edit_message(mess, about_text, buttons=back_button)
-
-
-@client.on(events.CallbackQuery(pattern="back"))
-async def rem_user(e):
-    mess = await e.get_message()
-    chat = await e.get_chat()
-    await client.edit_message(mess, start_message.format(chat.first_name), buttons=start_button, link_preview=False)
 
 
 client.run_until_disconnected()
