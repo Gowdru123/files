@@ -5,6 +5,6 @@ from database.url_db import *
 from e import *
 
 DB_URI = os.environ.get("DB_URI")
-client = TelegramClient('ShortUrlLink', APP_ID, API_HASH).start(
+client = TelegramClient('ShortUrlLink', APP_ID, APP_HASH).start(
     bot_token=BOT_TOKEN)
 
