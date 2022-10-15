@@ -6,7 +6,7 @@ from client import *
 from data_shorten import *
 
 # INITIALISATION
-client.parse_mode = 'html'
+myclient.parse_mode = 'html'
 commands = ["/api", ""]
 welcome_re = re.compile('/start', re.IGNORECASE)
 
