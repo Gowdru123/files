@@ -31,6 +31,15 @@ Sᴛᴇᴘ Nᴏ 2 : Tʜᴇɴ Cᴏᴍ Aɢᴀɪɴ Hᴇʀᴇ Aɴᴅ Usᴇ /api Tᴏ
 
 Exᴀᴍᴘʟᴇ : `/api s18ғsjsn737d19f08f382h19d9sd473774hd58` """
 
+ABOUT_TEXT = """🤖 Name :  Tamizh Masters Link Convertor
+
+🔠 Language  : Python3
+📚 Library   : Teleton And Pyrogram
+👑 Owner     : @Bavabee
+🧑🏻‍💻 Developer : @HMF_Owner_1
+
+©️Powered By @simplysouth_links """
+
 @bot.on_message(filters.command("start", PREFIX))
 async def start(client, message):
     await message.reply_photo(START_MEDIA, caption=START_TEXT,
