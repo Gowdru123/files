@@ -339,7 +339,7 @@ async def clear_user_batch(bot: Client, m: Message):
     MediaList[f"{str(m.from_user.id)}"] = []
     await m.reply_text("Cleared your batch files successfully!")
 
-@bot.on_callback_query(filters.regex("START_BACK"))
+@Bot.on_callback_query(filters.regex("START_BACK"))
 async def start_back(_, query: CallbackQuery):
     await query.edit_message_caption(START_TEXT,
        reply_markup=InlineKeyboardMarkup(START_BACK_BUTTON))
@@ -357,7 +357,7 @@ START_BACK_BUTTON = [
     ],   
 ]
 
-@bot.on_callback_query(filters.regex("HELP_BUT"))
+@Bot.on_callback_query(filters.regex("HELP_BUT"))
 async def help(_, query: CallbackQuery):
     await query.edit_message_caption(HELP_TEXT,
        reply_markup=InlineKeyboardMarkup(HELP_BUTTON))
@@ -375,7 +375,7 @@ HELP_BUTTON = [
     ],   
 ]
 
-@bot.on_callback_query(filters.regex("ABOUT_BUT"))
+@Bot.on_callback_query(filters.regex("ABOUT_BUT"))
 async def about(_, query: CallbackQuery):
     await query.edit_message_caption(ABOUT_TEXT,
        reply_markup=InlineKeyboardMarkup(ABOUT_BUTTON))
