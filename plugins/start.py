@@ -33,7 +33,48 @@ START_BUTTON = [
             InlineKeyboardButton("Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ", url="https://tamizhmasters.com/member/tools/api"),
         ],
         [
-            InlineKeyboardButton("Hᴇʟᴘ", callback_data="_HELP_BUT"),
+            InlineKeyboardButton("Hᴇʟᴘ", callback_data="HELP_BUT"),
             InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="ABOUT_ME"),
+        ],
+        [
+            InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close"),
     ],   
 ]
+
+@bot.on_callback_query(filters.regex("START_BACK"))
+async def help(_, query: CallbackQuery):
+    await query.edit_message_caption(START_TEXT,
+       reply_markup=InlineKeyboardMarkup(START_BUTTON))
+
+HELP_BUTTON = [
+        [
+            InlineKeyboardButton("Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ", url="https://tamizhmasters.com/member/tools/api"),
+        ],
+        [
+            InlineKeyboardButton("Hᴇʟᴘ", callback_data="HELP_BUT"),
+            InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="ABOUT_ME"),
+        ],
+        [
+            InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close"),
+    ],   
+]
+
+@bot.on_callback_query(filters.regex("HELP_BUT"))
+async def help(_, query: CallbackQuery):
+    await query.edit_message_caption(HELP_TEXT,
+       reply_markup=InlineKeyboardMarkup(HELP_BUTTON))
+
+HELP_BUTTON = [
+        [
+            InlineKeyboardButton("Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ", url="https://tamizhmasters.com/member/tools/api"),
+        ],
+        [
+            InlineKeyboardButton("Hᴇʟᴘ 🔘", callback_data="HELP_BUT"),
+            InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="ABOUT_ME"),
+        ],
+        [
+            InlineKeyboardButton("Bᴀᴄᴋ", callback_data="HELP_BACK"),
+    ],   
+]
+
+        
