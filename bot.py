@@ -56,7 +56,7 @@ Cᴜʀʀᴇɴᴛʟʏ Sᴜᴘᴘᴏʀᴛᴇᴅ Fᴏʀᴍᴀᴛs :
 
 Mᴏʀᴇ Fᴏʀᴍᴀᴛs Cᴏᴍᴍɪɴɢ Sᴏᴏɴ ......
 
-Pᴏᴡᴇʀᴇᴅ Bʏ : [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com)"""
+Pᴏᴡᴇʀᴇᴅ Bʏ : Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ"""
 
 ABOUT_BOT_TEXT = f"""
 This is Permanent Files Store Bot!
@@ -67,8 +67,6 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 📝 **Language:** [Python3](https://www.python.org)
 
 📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
-
-📡 **Hosted on:** [Heroku](https://heroku.com)
 
 👑 **Owner:** @Bavabee
 
