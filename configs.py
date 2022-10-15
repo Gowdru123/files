@@ -32,16 +32,16 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 📡 **Hosted on:** [Heroku](https://heroku.com)
 
-🧑🏻‍💻 **Developer:** @AbirHasan2005
+👑 **Owner:** @Bavabee
 
-👥 **Support Group:** [Linux Repositories](https://t.me/DevsZone)
+🧑🏻‍💻 **Developer:** @HMF_Owner_1
 
-📢 **Updates Channel:** [Discovery Projects](https://t.me/Discovery_Updates)
+👥 **Support Group:** @HangOverXD
+
+📢 **Updates Channel:** @simplysouth_links 
 """
 	ABOUT_DEV_TEXT = f"""
-**🌐 This Bot Was Devloped By** : @A2z_tech"""
-	HOME_TEXT = """
-Hello [{}](tg://user?id={})✋\n\n☁️ This Is A Unlimited Telegram Could Storage Bot For tamizhmasters.com Send Me Any File And Select Method Wait Few Seconds Bot Will Be Upload To Our Server And Genarate tamizhmasters.com Link For Files. ⚡\n\nCurrently Supported Format :\n\n⟴ File 📁\n⟴ Video 🎥\n⟴ Photo 🖼️\n⟴ Audio 🎙️\n\nMore Format Soon ⚡\n\nNote : 𝗬𝗢𝗨 𝗖𝗔𝗡 𝗔𝗟𝗦𝗢 𝗨𝗣𝗟𝗢𝗔𝗗 𝟰𝗚𝗕 𝗙𝗜𝗟𝗘𝗦 📥"""
+**🌐 This Bot Was Devloped By** : @HMF_Owner_1"""
 	SHORTENER_API_MESSAGE = """To add or update your Shortner Website API, `/apikey api`
             
 Ex: `/apikey 6LZq851sXofffPHugiKQq`
@@ -49,4 +49,38 @@ Ex: `/apikey 6LZq851sXofffPHugiKQq`
 Current Website: {base_site}
 
 Current Shortener API: `{shortener_api}`"""
+
+PREFIX = ["/", ".", "?", "#", "@", "₹", "+", ":", "!", "^", "|"]
+START_MEDIA = "https://telegra.ph/file/d20dee1ba93fc0b0c05ac.jpg"
+START_TEXT = """I'ᴍ Uʟᴛʀᴀ Fᴀsᴛ Tᴇʟᴇɢʀᴀᴍ Cᴏᴜʟᴅ Sᴛᴏʀᴀɢᴇ Bᴏᴛ  Fᴏʀ [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com). Sᴇɴᴅ Mᴇ Aɴʏ Fɪʟᴇs/Lɪɴᴋs Aɴᴅ Sᴇʟᴇᴄᴛ Mᴇᴛʜᴏᴅ Wᴀɪᴛ Fᴇᴡ Sᴇᴄᴏɴᴅs Bᴏᴛ Wɪʟʟ Bᴇ Uᴘʟᴏᴀᴅ Tᴏ Oᴜʀ Sᴇʀᴠᴇʀ Aɴᴅ Gᴇɴᴀʀᴀᴛᴇ  [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com) ......
+
+Cᴜʀʀᴇɴᴛʟʏ Sᴜᴘᴘᴏʀᴛᴇᴅ Fᴏʀᴍᴀᴛs :
+
+• Lɪɴᴋs - Aʟsᴏ Sᴜᴘᴘᴏʀᴛ Bᴜʟᴋ Lɪɴᴋs 
+• Fɪʟᴇs - Sᴜᴘᴘᴏʀᴛᴇᴅ Uᴘ Tᴏ 4GB
+• Vɪᴅᴇᴏs - Sᴜᴘᴘᴏʀᴛᴇᴅ Uᴘ Tᴏ 4GB
+• Aᴜᴅɪᴏs - Sᴜᴘᴘᴏʀᴛᴇᴅ Uᴘ Tᴏ 4GB
+• Pʜᴏᴛᴏs - Sᴜᴘᴘᴏʀᴛᴇᴅ Uᴘ Tᴏ 4GB
+
+Mᴏʀᴇ Fᴏʀᴍᴀᴛs Cᴏᴍᴍɪɴɢ Sᴏᴏɴ ......
+
+Pᴏᴡᴇʀᴇᴅ Bʏ : [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com)"""
+
+HELP_TEXT = """Hᴏᴡ Tᴏ Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Wᴇʙsɪᴛᴇ:
+
+Sᴛᴇᴘ Nᴏ 1 : Jᴜsᴛ Cʟɪᴄᴋ 'Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ' Bᴜᴛᴛᴏɴ Aɴᴅ Cᴏᴘʏ Yᴏᴜʀ [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com) Aᴄᴄᴏᴜɴᴛ Aᴘɪ Tᴏᴋᴇɴ.
+
+Sᴛᴇᴘ Nᴏ 2 : Tʜᴇɴ Cᴏᴍ Aɢᴀɪɴ Hᴇʀᴇ Aɴᴅ Usᴇ /api Tᴏ Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Yᴏᴜʀ [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com) Aᴄᴄᴏᴜɴᴛ.
+
+Exᴀᴍᴘʟᴇ : `/api s18ғsjsn737d19f08f382h19d9sd473774hd58` """
+
+ABOUT_TEXT = """🤖 Name :  Tamizh Masters Link Convertor
+
+🔠 Language  : Python3
+📚 Library   : Teleton And Pyrogram
+👑 Owner     : @Bavabee
+🧑🏻‍💻 Developer : @HMF_Owner_1
+
+©️Powered By @simplysouth_links """
+
 
