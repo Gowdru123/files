@@ -12,7 +12,7 @@ welcome_re = re.compile('/start', re.IGNORECASE)
 
 
 # TRIGGERS
-@client.on(events.NewMessage(pattern=welcome_re))
+@myclient.on(events.NewMessage(pattern=welcome_re))
 async def welcome(e):
     chat = await e.get_chat()
     if e.raw_text.lower() == "/start":
@@ -43,7 +43,7 @@ async def welcome(e):
         await client.edit_message(mess, "<b>😔Invailid User Api Token!!</b>")
 
 
-@client.on(events.NewMessage())
+@myclient.on(events.NewMessage())
 async def handler(e):
     chat = await e.get_chat()
     if re.search("/api ", e.raw_text):
@@ -75,7 +75,7 @@ async def handler(e):
     await client.edit_message(mess, message=caption, buttons=buttons)
 
 
-@client.on(events.NewMessage(pattern="/api"))
+@myclient.on(events.NewMessage(pattern="/api"))
 async def api(e):
     chat = await e.get_chat()
     try:
@@ -96,7 +96,7 @@ async def api(e):
 
 
 # CALLBACK-QUERY
-@client.on(events.CallbackQuery(pattern="reusr"))
+@myclient.on(events.CallbackQuery(pattern="reusr"))
 async def rem_user(e):
     mess = await e.get_message()
     caption = mess.raw_text
@@ -105,24 +105,24 @@ async def rem_user(e):
     await client.edit_message(mess, caption)
 
 
-@client.on(events.CallbackQuery(pattern="api"))
+@myclient.on(events.CallbackQuery(pattern="api"))
 async def rem_user(e):
     mess = await e.get_message()
     await client.edit_message(mess, api_message, buttons=api_button)
 
 
-@client.on(events.CallbackQuery(pattern="abt"))
+@myclient.on(events.CallbackQuery(pattern="abt"))
 async def rem_user(e):
     mess = await e.get_message()
     await client.edit_message(mess)
 
 
-@client.on(events.CallbackQuery(pattern="back"))
+@myclient.on(events.CallbackQuery(pattern="back"))
 async def rem_user(e):
     mess = await e.get_message()
     chat = await e.get_chat()
     await client.edit_message(mess, link_preview=False)
 
 
-client.run_until_disconnected()
+myclient.run_until_disconnected()
 
