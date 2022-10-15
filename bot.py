@@ -41,6 +41,8 @@ from plugins.users_api import get_user, update_user_info
 
 MediaList = {}
 
+START_MEDIA = "https://telegra.ph/file/d20dee1ba93fc0b0c05ac.jpg"
+
 Bot = Client(
     name=Config.BOT_USERNAME,
     in_memory=True,
