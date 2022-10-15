@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# © Telegram @HMF_Owner_1, GitHub @ThiruXD 
 
 import asyncio
 from configs import Config
@@ -9,8 +9,8 @@ from pyrogram.types import (
     InlineKeyboardButton
 )
 from pyrogram.errors import FloodWait
-from handlers.helpers import get_short_link, str_to_b64
-from handlers.users_api import get_user
+from plugins.helpers import get_short_link, str_to_b64
+from plugins.users_api import get_user
 
 
 async def forward_to_channel(bot: Client, message: Message, editable: Message):
