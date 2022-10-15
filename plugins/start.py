@@ -24,6 +24,16 @@ Mᴏʀᴇ Fᴏʀᴍᴀᴛs Cᴏᴍᴍɪɴɢ Sᴏᴏɴ ......
 Pᴏᴡᴇʀᴇᴅ Bʏ : [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com)"""
 
 @bot.on_message(filters.command("start", PREFIX))
-async def help(client, message):
+async def start(client, message):
     await message.reply_photo(START_MEDIA, caption=START_TEXT,
                               reply_markup=InlineKeyboardMarkup(START_BUTTON))
+
+START_BUTTON = [
+        [
+            InlineKeyboardButton("Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ", url="https://tamizhmasters.com/member/tools/api"),
+        ],
+        [
+            InlineKeyboardButton("Hᴇʟᴘ", callback_data="_HELP_BUT"),
+            InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="ABOUT_ME"),
+    ],   
+]
