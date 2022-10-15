@@ -1,4 +1,4 @@
-# (c) 
+# © Telegram @HMF_Owner_1, GitHub @ThiruXD 
 
 import os
 import asyncio
@@ -23,21 +23,21 @@ from pyrogram.types import (
     Message
 )
 from configs import Config
-from handlers.database import db
-from handlers.add_user_to_db import add_user_to_database
-from handlers.send_file import send_media_and_reply
-from handlers.helpers import b64_to_str, str_to_b64
-from handlers.check_user_status import handle_user_status
-from handlers.force_sub_handler import (
+from plugins.database import db
+from plugins.add_user_to_db import add_user_to_database
+from plugins.send_file import send_media_and_reply
+from plugins.helpers import b64_to_str, str_to_b64
+from plugins.check_user_status import handle_user_status
+from plugins.force_sub_handler import (
     handle_force_sub,
     get_invite_link
 )
-from handlers.broadcast_handlers import main_broadcast_handler
-from handlers.save_media import (
+from plugins.broadcast_handlers import main_broadcast_handler
+from plugins.save_media import (
     save_media_in_channel,
     save_batch_media_in_channel
 )
-from handlers.users_api import get_user, update_user_info
+from plugins.users_api import get_user, update_user_info
 
 MediaList = {}
 
