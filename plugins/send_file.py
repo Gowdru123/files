@@ -1,12 +1,12 @@
-# (c) @AbirHasan2005
+# © Telegram @HMF_Owner_1, GitHub @ThiruXD 
 
 import asyncio
 from configs import Config
 from pyrogram import Client
 from pyrogram.types import Message
 from pyrogram.errors import FloodWait
-from handlers.helpers import str_to_b64, get_short_link
-from handlers.users_api import get_user
+from plugins.helpers import str_to_b64, get_short_link
+from plugins.users_api import get_user
 
 
 async def reply_forward(message: Message, file_id: int):
