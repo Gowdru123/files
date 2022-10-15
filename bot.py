@@ -79,7 +79,7 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 📢 **Updates Channel:** @simplysouth_links 
 """
 
-HELP_TEXT = """Hᴏᴡ Tᴏ Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Wᴇʙsɪᴛᴇ:
+HELP_TEXT = """**Hᴏᴡ Tᴏ Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Wᴇʙsɪᴛᴇ:**
 
 Sᴛᴇᴘ Nᴏ 1 : Jᴜsᴛ Cʟɪᴄᴋ 'Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ' Bᴜᴛᴛᴏɴ Aɴᴅ Cᴏᴘʏ Yᴏᴜʀ [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com) Aᴄᴄᴏᴜɴᴛ Aᴘɪ Tᴏᴋᴇɴ.
 
