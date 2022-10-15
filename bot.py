@@ -24,7 +24,7 @@ from pyrogram.types import (
 )
 from configs import Config
 from database.database import db
-from database.add_user_to_db import add_user_to_database
+from plugins.add_user_db import add_user_to_database
 from plugins.send_file import send_media_and_reply
 from plugins.helpers import b64_to_str, str_to_b64
 from plugins.check_user_status import handle_user_status
