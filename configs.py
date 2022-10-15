@@ -52,7 +52,7 @@ Current Shortener API: `{shortener_api}`"""
 
 PREFIX = ["/", ".", "?", "#", "@", "₹", "+", ":", "!", "^", "|"]
 START_MEDIA = "https://telegra.ph/file/d20dee1ba93fc0b0c05ac.jpg"
-START_TEXT = f"""Hɪ/Hᴇʟʟᴏ [{}](tg://user?id={})
+START_TEXT = """Hɪ/Hᴇʟʟᴏ [{}](tg://user?id={})
 
 I'ᴍ Uʟᴛʀᴀ Fᴀsᴛ Tᴇʟᴇɢʀᴀᴍ Cᴏᴜʟᴅ Sᴛᴏʀᴀɢᴇ Bᴏᴛ  Fᴏʀ [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com). Sᴇɴᴅ Mᴇ Aɴʏ Fɪʟᴇs/Lɪɴᴋs Aɴᴅ Sᴇʟᴇᴄᴛ Mᴇᴛʜᴏᴅ Wᴀɪᴛ Fᴇᴡ Sᴇᴄᴏɴᴅs Bᴏᴛ Wɪʟʟ Bᴇ Uᴘʟᴏᴀᴅ Tᴏ Oᴜʀ Sᴇʀᴠᴇʀ Aɴᴅ Gᴇɴᴀʀᴀᴛᴇ  [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com) ......
 
