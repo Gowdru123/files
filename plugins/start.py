@@ -40,7 +40,7 @@ ABOUT_TEXT = """🤖 Name :  Tamizh Masters Link Convertor
 
 ©️Powered By @simplysouth_links """
 
-@bot.on_message(filters.command("start", PREFIX))
+@bot.on_message(filters.command("help", PREFIX))
 async def start(client, message):
     await message.reply_photo(START_MEDIA, caption=START_TEXT,
                               reply_markup=InlineKeyboardMarkup(START_BUTTON))
