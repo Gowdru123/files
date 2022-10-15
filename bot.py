@@ -1,3 +1,4 @@
+
 # © Telegram @HMF_Owner_1, GitHub @ThiruXD 
 
 import os
@@ -402,7 +403,7 @@ START_BACK_BUTTON = [
     ],   
 ]
 
-@bot.on_callback_query(filters.regex("close"))
+@Bot.on_callback_query(filters.regex("close"))
 async def delete(_, query):
     await query.message.delete()
 
