@@ -54,9 +54,7 @@ Cᴜʀʀᴇɴᴛʟʏ Sᴜᴘᴘᴏʀᴛᴇᴅ Fᴏʀᴍᴀᴛs :
 • Aᴜᴅɪᴏs - Sᴜᴘᴘᴏʀᴛᴇᴅ Uᴘ Tᴏ 4GB
 • Pʜᴏᴛᴏs - Sᴜᴘᴘᴏʀᴛᴇᴅ Uᴘ Tᴏ 4GB
 
-Mᴏʀᴇ Fᴏʀᴍᴀᴛs Cᴏᴍᴍɪɴɢ Sᴏᴏɴ ......
-
-Pᴏᴡᴇʀᴇᴅ Bʏ - [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](https://tamizhmasters.com)"""
+Mᴏʀᴇ Fᴏʀᴍᴀᴛs Cᴏᴍᴍɪɴɢ Sᴏᴏɴ ......"""
 
 ABOUT_BOT_TEXT = f"""
 This is Permanent Files Store Bot!
