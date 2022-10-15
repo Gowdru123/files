@@ -1,7 +1,7 @@
 from motor.motor_asyncio import AsyncIOMotorClient
 from configs import Config
 
-client = AsyncIOMotorClient(Config.DATABASE_URI)
+client = AsyncIOMotorClient(Config.DATABASE_URL)
 db = client[Config.BOT_USERNAME]
 col = db["users"]
 
