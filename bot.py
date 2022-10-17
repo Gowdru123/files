@@ -400,6 +400,11 @@ START_BACK_BUTTON = [
             InlineKeyboardButton("Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ", url="https://tamizhmasters.com/member/tools/api"),
         ],
         [
+            InlineKeyboardButton("Aʟʟ Lɪɴᴋs", url="https://tamizhmasters.com/member/links"),
+            InlineKeyboardButton("Aᴘɪ", url="https://tamizhmasters.com/member/tools/api"),
+            InlineKeyboardButton("PʀᴏFɪʟᴇ", url="https://tamizhmasters.com/member/users/profile"),
+        ],
+        [
             InlineKeyboardButton("Hᴇʟᴘ", callback_data="HELP_BUT"),
             InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="ABOUT_BUT"),
         ],
