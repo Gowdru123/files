@@ -414,7 +414,7 @@ async def help(_, query: CallbackQuery):
 
 HELP_BUTTON = [
         [
-            InlineKeyboardButton("Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ", url="https://tamizhmasters.com/member/tools/api"),
+            InlineKeyboardButton("📁 Vɪᴅᴇᴏ Tᴜᴛᴏʀɪᴀʟ 📽️", url="https://t.me/All_In_One_Tm_BoT?start=Jdisk_NjI3"),
         ],
         [
             InlineKeyboardButton("Hᴇʟᴘ 🔘", callback_data="HELP_BUT"),
@@ -432,7 +432,7 @@ async def about(_, query: CallbackQuery):
 
 ABOUT_BUTTON = [
         [
-            InlineKeyboardButton("Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ", url="https://tamizhmasters.com/member/tools/api"),
+            InlineKeyboardButton("📁 Vɪᴅᴇᴏ Tᴜᴛᴏʀɪᴀʟ 📽️", url="https://t.me/All_In_One_Tm_BoT?start=Jdisk_NjI3"),
         ],
         [
             InlineKeyboardButton("Hᴇʟᴘ", callback_data="HELP_BUT"),
