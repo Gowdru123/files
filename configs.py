@@ -5,12 +5,12 @@ from f import *
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "0"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
+	API_ID = int(os.environ.get("API_ID", "9840531"))
+	API_HASH = os.environ.get("API_HASH", "2ac10377616df23907e134df14bdf08b")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5722099580:AAGBkFpEXM3gy-4U2DxPn4gOjCcN0irGvyE")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "All_In_One_Tm_BoT")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001739848270"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "960432019"))
 	DATABASE_URL = os.environ.get("DATABASE_URL")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
