@@ -1,4 +1,4 @@
-worker: python3 bot.py
+web: python3 bot.py
 
 link: python main.py
 
