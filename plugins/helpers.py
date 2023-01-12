@@ -17,3 +17,4 @@ def b64_to_str(b64: str) -> str:
 
 async def get_shortlink(link, api: int):
     return f"https://{URL_SHORTENR_WEBSITE}/st?api={URL_SHORTNER_WEBSITE_API}&url={link}" if api else link
+
