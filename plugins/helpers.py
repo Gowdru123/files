@@ -1,5 +1,4 @@
 from base64 import standard_b64encode, standard_b64decode
-from shortzy import Shortzy
 from configs import Config
 
 def str_to_b64(__str: str) -> str:
@@ -16,13 +15,5 @@ def b64_to_str(b64: str) -> str:
     return __str
 
 
-async def get_short_link(user, link, ):
-    api_key = user["shortener_api"]
-    print(user)
-    base_site = Config.BASE_SITE
-
-    shortzy = Shortzy(api_key, base_site)
-
-    short_link = await shortzy.convert(link)
-
-    return short_link
+async def get_shortlink(link, api: int):
+    return f"https://{URL_SHORTENR_WEBSITE}/st?api={URL_SHORTNER_WEBSITE_API}&url={link}" if api else link
