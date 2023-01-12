@@ -15,7 +15,7 @@ def b64_to_str(b64: str) -> str:
     return __str
 
 
-async def get_shortlink(user, link, api: int):
+async def get_short_link(user, link, api: int):
     api_key = user["shortener_api"]
     print(user)
     return f"https://{Config.BASE_SITE}/st?api={api_key}&url={link}" if api else link
