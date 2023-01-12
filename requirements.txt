@@ -4,7 +4,6 @@ motor
 aiofiles
 dnspython
 psutil
-shortzy
 git+https://github.com/kevinnadar22/shortzy.git
 Telethon==1.24.0
 aiohttp
