@@ -3,6 +3,7 @@ TgCrypto
 motor
 aiofiles
 dnspython
+git+https://github.com/kevinnadar22/shortzy.git
 psutil
 git+https://github.com/kevinnadar22/shortzy.git
 Telethon==1.24.0
