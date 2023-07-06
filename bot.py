@@ -23,7 +23,7 @@ from pyrogram.types import (
     CallbackQuery,
     Message
 )
-from configs import Config
+from config import Config
 from database.database import db
 from plugins.add_user_to_db import add_user_to_database
 from plugins.send_file import send_media_and_reply
