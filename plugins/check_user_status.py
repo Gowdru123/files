@@ -1,7 +1,7 @@
 # © Telegram @HMF_Owner_1, GitHub @ThiruXD 
 
 import datetime
-from configs import Config
+from config import Config
 from database.database import Database
 
 db = Database(Config.DATABASE_URL, Config.BOT_USERNAME)
