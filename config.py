@@ -7,7 +7,7 @@ from f import *
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", "9840531"))
 	API_HASH = os.environ.get("API_HASH", "2ac10377616df23907e134df14bdf08b")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5722099580:AAFYJLFHsPrtIaNAIjkKsXb4duEplLJ2WaI")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6391572346:AAHVaKu9Q3IuBBnml7dxBeDe92y8aYfI-hA")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "All_In_One_Tm_BoT")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001739848270"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "960432019"))
