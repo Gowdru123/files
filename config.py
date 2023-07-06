@@ -1,7 +1,7 @@
 # © Telegram @HMF_Owner_1, GitHub @ThiruXD 
 
 import os
-from f import *
+import time 
 
 
 class Config(object):
