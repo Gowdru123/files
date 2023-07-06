@@ -1,7 +1,7 @@
 # © Telegram @HMF_Owner_1, GitHub @ThiruXD 
 
 import asyncio
-from configs import Config
+from config import Config
 from pyrogram import Client
 from pyrogram.types import Message
 from pyrogram.errors import FloodWait
