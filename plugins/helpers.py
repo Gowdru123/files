@@ -1,5 +1,5 @@
 from base64 import standard_b64encode, standard_b64decode
-from configs import Config
+from config import Config
 from shortzy import Shortzy
 
 def str_to_b64(__str: str) -> str:
