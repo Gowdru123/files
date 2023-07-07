@@ -7,9 +7,9 @@ import time
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", "25502576"))
 	API_HASH = os.environ.get("API_HASH", "f0f35dbb5b0081cdc8d3c9d5383c4628")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5612068072:AAENqKvWMSFvJ0RLiFNPPYNxv19645gn7E0")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME", "AfsjsgsvBot")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001826734158"))
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6369183180:AAE8nXrcaNI-ZPMtdn4AxI6Uf99wZ-6BWt0")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "VnshortenerFileStoreBot")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "--1001826734158"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5123039648"))
 	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://SujanC7:SujanC7@cluster0.vst9zln.mongodb.net/?retryWrites=true&w=majority")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001861445521")
@@ -19,13 +19,13 @@ class Config(object):
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
 	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1001362659779 -1001255795497").split()))
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
-	BASE_SITE = os.environ.get("BASE_SITE", "kpslink.in")
-	DOMAIN = os.environ.get("DOMAIN", "kpslink.in")
+	BASE_SITE = os.environ.get("BASE_SITE", "Vnshortener.com")
+	DOMAIN = os.environ.get("DOMAIN", "Vnshortener.com")
 	ABOUT_BOT_TEXT = f"""
 This is Permanent Files Store Bot!
 Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
-🤖 **My Name:** [Files Store Bot](https://t.me/{BOT_USERNAME})
+🤖 **My Name:** [Vnshortener File Store](https://t.me/{BOT_USERNAME})
 
 📝 **Language:** [Python3](https://www.python.org)
 
@@ -35,27 +35,27 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 👑 **Owner:** @Sujan_Ch
 
-🧑🏻‍💻 **Developer:** @Sujan_BotZ
+🧑🏻‍💻 **Developer:** @Sujan_Ch
 
-👥 **Support Group:** @Sujan_BotZ_Support
+👥 **Support Group:** @Sujan_BotZ
 
 📢 **Updates Channel:** @Sujan_BotZ 
 """
 	ABOUT_DEV_TEXT = f"""
 **🌐 This Bot Was Devloped By** : @Sujan_Ch"""
-	SHORTENER_API_MESSAGE = """To add or update your Shortner Website API, `/apikey api`
+	SHORTENER_API_MESSAGE = """To add or update your Shortner Website API, `/api api`
             
-Ex: `/apikey 6LZq851sXofffPHugiKQq`
+Ex: `/api 6LZq851sXofffPHugiKQq`
 
 Current Website: {base_site}
 
 Current Shortener API: `{shortener_api}`"""
 
 PREFIX = ["/", ".", "?", "#", "@", "₹", "+", ":", "!", "^", "|"]
-START_MEDIA = "https://telegra.ph/file/d20dee1ba93fc0b0c05ac.jpg"
+START_MEDIA = "https://graph.org/file/6b16ad03f00948d2d719e.jpg"
 START_TEXT = """Hɪ/Hᴇʟʟᴏ [{}](tg://user?id={})
 
-I'ᴍ Uʟᴛʀᴀ Fᴀsᴛ Tᴇʟᴇɢʀᴀᴍ Cᴏᴜʟᴅ Sᴛᴏʀᴀɢᴇ Bᴏᴛ  Fᴏʀ [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com). Sᴇɴᴅ Mᴇ Aɴʏ Fɪʟᴇs/Lɪɴᴋs Aɴᴅ Sᴇʟᴇᴄᴛ Mᴇᴛʜᴏᴅ Wᴀɪᴛ Fᴇᴡ Sᴇᴄᴏɴᴅs Bᴏᴛ Wɪʟʟ Bᴇ Uᴘʟᴏᴀᴅ Tᴏ Oᴜʀ Sᴇʀᴠᴇʀ Aɴᴅ Gᴇɴᴀʀᴀᴛᴇ  [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com) ......
+I'ᴍ Uʟᴛʀᴀ Fᴀsᴛ Tᴇʟᴇɢʀᴀᴍ Cᴏᴜʟᴅ Sᴛᴏʀᴀɢᴇ Bᴏᴛ  Fᴏʀ [Vnshortener](https://vnshortener.com). Sᴇɴᴅ Mᴇ Aɴʏ Fɪʟᴇs/Lɪɴᴋs Aɴᴅ Sᴇʟᴇᴄᴛ Mᴇᴛʜᴏᴅ Wᴀɪᴛ Fᴇᴡ Sᴇᴄᴏɴᴅs Bᴏᴛ Wɪʟʟ Bᴇ Uᴘʟᴏᴀᴅ Tᴏ Oᴜʀ Sᴇʀᴠᴇʀ Aɴᴅ Gᴇɴᴀʀᴀᴛᴇ  [Vnshortener](http://vnshortener.com) ......
 
 Cᴜʀʀᴇɴᴛʟʏ Sᴜᴘᴘᴏʀᴛᴇᴅ Fᴏʀᴍᴀᴛs :
 
@@ -67,24 +67,24 @@ Cᴜʀʀᴇɴᴛʟʏ Sᴜᴘᴘᴏʀᴛᴇᴅ Fᴏʀᴍᴀᴛs :
 
 Mᴏʀᴇ Fᴏʀᴍᴀᴛs Cᴏᴍᴍɪɴɢ Sᴏᴏɴ ......
 
-Pᴏᴡᴇʀᴇᴅ Bʏ : [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com)"""
+Pᴏᴡᴇʀᴇᴅ Bʏ : [Sujan_Ch](http://Sujan_BotZ)"""
 
 HELP_TEXT = """Hᴏᴡ Tᴏ Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Wᴇʙsɪᴛᴇ:
 
-Sᴛᴇᴘ Nᴏ 1 : Jᴜsᴛ Cʟɪᴄᴋ 'Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ' Bᴜᴛᴛᴏɴ Aɴᴅ Cᴏᴘʏ Yᴏᴜʀ [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com) Aᴄᴄᴏᴜɴᴛ Aᴘɪ Tᴏᴋᴇɴ.
+Sᴛᴇᴘ Nᴏ 1 : Jᴜsᴛ Cʟɪᴄᴋ 'Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ' Bᴜᴛᴛᴏɴ Aɴᴅ Cᴏᴘʏ Yᴏᴜʀ [Vnshortener](http://vnshortener.com) Aᴄᴄᴏᴜɴᴛ Aᴘɪ Tᴏᴋᴇɴ.
 
-Sᴛᴇᴘ Nᴏ 2 : Tʜᴇɴ Cᴏᴍ Aɢᴀɪɴ Hᴇʀᴇ Aɴᴅ Usᴇ /api Tᴏ Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Yᴏᴜʀ [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com) Aᴄᴄᴏᴜɴᴛ.
+Sᴛᴇᴘ Nᴏ 2 : Tʜᴇɴ Cᴏᴍ Aɢᴀɪɴ Hᴇʀᴇ Aɴᴅ Usᴇ /api Tᴏ Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Yᴏᴜʀ [Vnshortener](http://Vnshortener.com) Aᴄᴄᴏᴜɴᴛ.
 
 Exᴀᴍᴘʟᴇ : `/api s18ғsjsn737d19f08f382h19d9sd473774hd58` """
 
-ABOUT_TEXT = """🤖 Name :  Tamizh Masters Link Convertor
+ABOUT_TEXT = """🤖 Name :  Vnshortener File Store Bot 
 
 🔠 Language  : Python3
 📚 Library   : Teleton And Pyrogram
-👑 Owner     : @Bavabee
-🧑🏻‍💻 Developer : @HMF_Owner_1
+👑 Owner     : @sujan_ch
+🧑🏻‍💻 Developer : @sujan_ch
 
-©️Powered By @simplysouth_links """
+©️Powered By @Sujan_BotZ """
 
 
 

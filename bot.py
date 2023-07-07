@@ -42,7 +42,7 @@ from plugins.users_api import get_user, update_user_info
 
 MediaList = {}
 
-START_MEDIA = "https://telegra.ph/file/d20dee1ba93fc0b0c05ac.jpg"
+START_MEDIA = "https://graph.org/file/6b16ad03f00948d2d719e.jpg"
 
 START_TEXT = """**Hɪ/Hᴇʟʟᴏ [{}](tg://user?id={})**
 
@@ -58,25 +58,25 @@ I'ᴍ Uʟᴛʀᴀ Fᴀsᴛ Tᴇʟᴇɢʀᴀᴍ Cᴏᴜʟᴅ Sᴛᴏʀᴀɢᴇ B�
 
 Mᴏʀᴇ Fᴏʀᴍᴀᴛs Cᴏᴍᴍɪɴɢ Sᴏᴏɴ ......
 
-Pᴏᴡᴇʀᴇᴅ Bʏ - [Vnshortener](https://vnshortener.com)"""
+Pᴏᴡᴇʀᴇᴅ Bʏ - [Sujan_Ch](https://t.me/Sujan_BotZ)"""
 
 ABOUT_BOT_TEXT = f"""
 This is Permanent File/Links Store Bot!
 Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
-🤖 **My Name:** [VnShortner File Store](https://vnshortener.com)
+🤖 **My Name:** [Vnshortener File Store](https://t.me/Sujan_BotZ)
 
 📝 **Language:** [Python3](https://www.python.org)
 
 📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
 
-👑 **Owner:** @vnshortener
+👑 **Owner:** @Sujan_Ch
 
-🧑🏻‍💻 **Developer:** @Sujan_BotZ
+🧑🏻‍💻 **Developer:** @Sujan_Ch
 
-👥 **Support Group:** @VnShortener
+👥 **Support Group:** @Sujan_BotZ
 
-📢 **Updates Channel:** @VnShortener 
+📢 **Updates Channel:** @Sujan_BotZ 
 """
 
 HELP_TEXT = """**Hᴏᴡ Tᴏ Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Wᴇʙsɪᴛᴇ:**
@@ -135,6 +135,14 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
+                    InlineKeyboardButton("Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ", url="https://Vnshortener.com/member/tools/api"),
+                ],
+                [
+                    InlineKeyboardButton("Aʟʟ Lɪɴᴋs", url="https://Vnshortener.com/member/links"),
+                    InlineKeyboardButton("Aᴘɪ", url="https://Vnshortener.com/member/tools/api"),
+                    InlineKeyboardButton("PʀᴏFɪʟᴇ", url="https://Vnshortener.com/member/users/profile"),
+                ],
+                [
                     InlineKeyboardButton("Hᴇʟᴘ", callback_data="HELP_BUT"),
                     InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="ABOUT_BUT"),
                 ],
@@ -176,7 +184,7 @@ async def main(bot: Client, message: Message):
         user = await get_user(message.from_user.id)
 
         if not user["shortener_api"]:
-            return await message.reply_text(f"Fɪʀsᴛ Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Yᴏᴜʀ Wᴇʙsɪᴛᴇ Aᴘɪ\n\n[Cʟɪᴄᴋ Tᴏ Cᴏɴɴᴇᴄᴛ](https://tamizhmasters.com/member/tools/api)")
+            return await message.reply_text(f"Fɪʀsᴛ Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Yᴏᴜʀ Wᴇʙsɪᴛᴇ Aᴘɪ\n\n[Cʟɪᴄᴋ Tᴏ Cᴏɴɴᴇᴄᴛ](https://vnshortener.com/member/tools/api)")
 
         await add_user_to_database(bot, message)
 
@@ -389,6 +397,14 @@ async def start_back(_, query: CallbackQuery):
 
 START_BACK_BUTTON = [
         [
+        InlineKeyboardButton("Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ", url="https://Vnshortener.com/member/tools/api"),
+                ],
+                [
+                    InlineKeyboardButton("Aʟʟ Lɪɴᴋs", url="https://Vnshortener.com/member/links"),
+                    InlineKeyboardButton("Aᴘɪ", url="https://Vnshortener.com/member/tools/api"),
+                    InlineKeyboardButton("PʀᴏFɪʟᴇ", url="https://Vnshortener.com/member/users/profile"),
+                ],
+                [
             InlineKeyboardButton("Hᴇʟᴘ", callback_data="HELP_BUT"),
             InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="ABOUT_BUT"),
         ],
