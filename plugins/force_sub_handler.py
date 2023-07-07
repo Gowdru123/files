@@ -61,7 +61,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
     except Exception:
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="Something went Wrong. Contact my [Owner](https://t.me/Sujan_Ch).",
+            text="If You Have Any Query.Contact my [Owner](https://t.me/Sujan_Ch).",
             disable_web_page_preview=True
         )
         return 200
