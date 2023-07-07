@@ -19,7 +19,7 @@ async def request(url):
 from f import *
 
 async def get_json(url, api):
-    url = f"https://kpslink.in/api?api={api}&url={url}"
+    url = f"https://vnshortener.com/api?api={api}&url={url}"
     print(url)
     async with aiohttp.ClientSession() as s:
         for i in range(3):
@@ -52,8 +52,8 @@ async def shortner(links, api):
 # API_ZONE
 
 async def api_checker(api):
-    url = f"https://kpslink.in/api?api={api}&link={link}"
-    r = await request(link)
+    url = f"https://vnshortener.com/api?api={api}&url=https://www.google.com"
+    r = await request(url)
     print(r)
     if r["status"] != "error":
         return 1, "sucess"
