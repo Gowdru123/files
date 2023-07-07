@@ -9,7 +9,7 @@ class Config(object):
 	API_HASH = os.environ.get("API_HASH", "f0f35dbb5b0081cdc8d3c9d5383c4628")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6369183180:AAE8nXrcaNI-ZPMtdn4AxI6Uf99wZ-6BWt0")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "VnshortenerFileStoreBot")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "--1001826734158"))
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001826734158"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5123039648"))
 	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://SujanC7:SujanC7@cluster0.vst9zln.mongodb.net/?retryWrites=true&w=majority")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001861445521")
