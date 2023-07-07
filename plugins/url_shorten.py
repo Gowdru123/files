@@ -52,7 +52,8 @@ async def shortner(links, api):
 # API_ZONE
 
 async def api_checker(api):
-    url = f"https://{url}/api?api={api}&url={url}"                                        r = await request(url)
+    url = f"https://{url}/api?api={api}&link={link}"
+    r = await request(link)
     print(r)
     if r["status"] != "error":
         return 1, "sucess"
