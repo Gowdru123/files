@@ -46,7 +46,7 @@ START_MEDIA = "https://telegra.ph/file/d20dee1ba93fc0b0c05ac.jpg"
 
 START_TEXT = """**Hɪ/Hᴇʟʟᴏ [{}](tg://user?id={})**
 
-I'ᴍ Uʟᴛʀᴀ Fᴀsᴛ Tᴇʟᴇɢʀᴀᴍ Cᴏᴜʟᴅ Sᴛᴏʀᴀɢᴇ Bᴏᴛ  Fᴏʀ [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com). Sᴇɴᴅ Mᴇ Aɴʏ Fɪʟᴇs/Lɪɴᴋs Aɴᴅ Sᴇʟᴇᴄᴛ Mᴇᴛʜᴏᴅ Wᴀɪᴛ Fᴇᴡ Sᴇᴄᴏɴᴅs Bᴏᴛ Wɪʟʟ Bᴇ Uᴘʟᴏᴀᴅ Tᴏ Oᴜʀ Sᴇʀᴠᴇʀ Aɴᴅ Gᴇɴᴀʀᴀᴛᴇ  [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com) ......
+I'ᴍ Uʟᴛʀᴀ Fᴀsᴛ Tᴇʟᴇɢʀᴀᴍ Cᴏᴜʟᴅ Sᴛᴏʀᴀɢᴇ Bᴏᴛ. Sᴇɴᴅ Mᴇ Aɴʏ Fɪʟᴇs/Lɪɴᴋs Aɴᴅ Sᴇʟᴇᴄᴛ Mᴇᴛʜᴏᴅ Wᴀɪᴛ Fᴇᴡ Sᴇᴄᴏɴᴅs Bᴏᴛ Wɪʟʟ Bᴇ Uᴘʟᴏᴀᴅ Tᴏ Oᴜʀ Sᴇʀᴠᴇʀ Aɴᴅ Gᴇɴᴀʀᴀᴛᴇ......
 
 **Cᴜʀʀᴇɴᴛʟʏ Sᴜᴘᴘᴏʀᴛᴇᴅ Fᴏʀᴍᴀᴛs** :
 
@@ -58,32 +58,32 @@ I'ᴍ Uʟᴛʀᴀ Fᴀsᴛ Tᴇʟᴇɢʀᴀᴍ Cᴏᴜʟᴅ Sᴛᴏʀᴀɢᴇ B�
 
 Mᴏʀᴇ Fᴏʀᴍᴀᴛs Cᴏᴍᴍɪɴɢ Sᴏᴏɴ ......
 
-Pᴏᴡᴇʀᴇᴅ Bʏ - [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](https://tamizhmasters.com)"""
+Pᴏᴡᴇʀᴇᴅ Bʏ - [Sujan_BotZ](https://t.me/Sujan_BotZ)"""
 
 ABOUT_BOT_TEXT = f"""
 This is Permanent File/Links Store Bot!
 Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
-🤖 **My Name:** [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](https://t.me/tmfile_short_bot)
+🤖 **My Name:** [File Store Shortner](https://t.me/Sujan_BotZ)
 
 📝 **Language:** [Python3](https://www.python.org)
 
 📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
 
-👑 **Owner:** @Bavabee
+👑 **Owner:** @Sujan_Ch
 
-🧑🏻‍💻 **Developer:** @HMF_Owner_1
+🧑🏻‍💻 **Developer:** @Sujan_BotZ
 
-👥 **Support Group:** @HangOverXD
+👥 **Support Group:** @Sujan_BotZ_Support
 
-📢 **Updates Channel:** @simplysouth_links 
+📢 **Updates Channel:** @Sujan_BotZ 
 """
 
 HELP_TEXT = """**Hᴏᴡ Tᴏ Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Wᴇʙsɪᴛᴇ:**
 
-Sᴛᴇᴘ Nᴏ 1 : Jᴜsᴛ Cʟɪᴄᴋ 'Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ' Bᴜᴛᴛᴏɴ Aɴᴅ Cᴏᴘʏ Yᴏᴜʀ [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com) Aᴄᴄᴏᴜɴᴛ Aᴘɪ Tᴏᴋᴇɴ.
+Sᴛᴇᴘ Nᴏ 1 : Jᴜsᴛ Cᴏᴘʏ Yᴏᴜʀ Aᴄᴄᴏᴜɴᴛ Aᴘɪ Tᴏᴋᴇɴ.
 
-Sᴛᴇᴘ Nᴏ 2 : Tʜᴇɴ Cᴏᴍ Aɢᴀɪɴ Hᴇʀᴇ Aɴᴅ Usᴇ /api Tᴏ Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Yᴏᴜʀ [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com) Aᴄᴄᴏᴜɴᴛ.
+Sᴛᴇᴘ Nᴏ 2 : Tʜᴇɴ Cᴏᴍ Aɢᴀɪɴ Hᴇʀᴇ Aɴᴅ Usᴇ /api Tᴏ Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Yᴏᴜʀ Aᴄᴄᴏᴜɴᴛ.
 
 Exᴀᴍᴘʟᴇ : `/api s18ғsjsn737d19f08f382h19d9sd473774hd58` """
 
@@ -135,14 +135,6 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                    InlineKeyboardButton("Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ", url="https://tamizhmasters.com/member/tools/api"),
-                ],
-                [
-                    InlineKeyboardButton("Aʟʟ Lɪɴᴋs", url="https://tamizhmasters.com/member/links"),
-                    InlineKeyboardButton("Aᴘɪ", url="https://tamizhmasters.com/member/tools/api"),
-                    InlineKeyboardButton("PʀᴏFɪʟᴇ", url="https://tamizhmasters.com/member/users/profile"),
-                ],
-                [
                     InlineKeyboardButton("Hᴇʟᴘ", callback_data="HELP_BUT"),
                     InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="ABOUT_BUT"),
                 ],
@@ -194,7 +186,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/HangOverXD)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Owner](https://t.me/Sujan_Ch)",
                                      disable_web_page_preview=True)
             return
 
@@ -397,14 +389,6 @@ async def start_back(_, query: CallbackQuery):
 
 START_BACK_BUTTON = [
         [
-            InlineKeyboardButton("Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ", url="https://tamizhmasters.com/member/tools/api"),
-        ],
-        [
-            InlineKeyboardButton("Aʟʟ Lɪɴᴋs", url="https://tamizhmasters.com/member/links"),
-            InlineKeyboardButton("Aᴘɪ", url="https://tamizhmasters.com/member/tools/api"),
-            InlineKeyboardButton("PʀᴏFɪʟᴇ", url="https://tamizhmasters.com/member/users/profile"),
-        ],
-        [
             InlineKeyboardButton("Hᴇʟᴘ", callback_data="HELP_BUT"),
             InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="ABOUT_BUT"),
         ],
@@ -424,9 +408,6 @@ async def help(_, query: CallbackQuery):
 
 HELP_BUTTON = [
         [
-            InlineKeyboardButton("📁 Vɪᴅᴇᴏ Tᴜᴛᴏʀɪᴀʟ 📽️", url="https://t.me/All_In_One_Tm_BoT?start=Jdisk_NjI3"),
-        ],
-        [
             InlineKeyboardButton("Hᴇʟᴘ 🔘", callback_data="HELP_BUT"),
             InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="ABOUT_BUT"),
         ],
@@ -441,9 +422,6 @@ async def about(_, query: CallbackQuery):
        reply_markup=InlineKeyboardMarkup(ABOUT_BUTTON))
 
 ABOUT_BUTTON = [
-        [
-            InlineKeyboardButton("📁 Vɪᴅᴇᴏ Tᴜᴛᴏʀɪᴀʟ 📽️", url="https://t.me/All_In_One_Tm_BoT?start=Jdisk_NjI3"),
-        ],
         [
             InlineKeyboardButton("Hᴇʟᴘ", callback_data="HELP_BUT"),
             InlineKeyboardButton("Aʙᴏᴜᴛ 🔘", callback_data="ABOUT_BUT"),
@@ -492,13 +470,10 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("⚡ 𝖢𝖫𝖨𝖢𝖪 𝖳𝖮 𝖢𝖮𝖭𝖭𝖤𝖢𝖳 ⚡", url="https://tamizhmasters.com/member/tools/api")
+                        InlineKeyboardButton("❓ Owner ❓", url="https://t.me/Sujan_Ch")
                     ],
                     [
-                        InlineKeyboardButton("❓ 𝖧𝖮𝖶 𝖳𝖮 𝖢𝖮𝖭𝖭𝖤𝖢𝖳 ❓", url="https://tamizhmasters.com")
-                    ],
-                    [
-                        InlineKeyboardButton("⚙️ ʜᴏᴡ ᴛᴏ ᴜsᴇ ⚙️", url="https://tamizhmasters.com")
+                        InlineKeyboardButton("⚙️ Bot Channel ⚙️", url="https://t.me/Sujan_BotZ")
                     ],
                     [
                         InlineKeyboardButton("✅ 𝖠𝖡𝖮𝖴𝖳 𝖡𝖮𝖳 ✅", callback_data="aboutdevs")
@@ -540,7 +515,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/HangOverXD).",
+                    text="Something went Wrong. Contact my [Owner](https://t.me/Sujan_Ch).",
                     disable_web_page_preview=True
                 )
                 return
@@ -550,8 +525,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/HangOverXD"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("Owner Dm", url="https://t.me/Sujan_Ch"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/Sujan_BotZ")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),

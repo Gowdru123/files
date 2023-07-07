@@ -5,15 +5,15 @@ import time
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "9840531"))
-	API_HASH = os.environ.get("API_HASH", "2ac10377616df23907e134df14bdf08b")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6391572346:AAHVaKu9Q3IuBBnml7dxBeDe92y8aYfI-hA")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME", "All_In_One_Tm_BoT")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001739848270"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "960432019"))
-	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Bave999:Bave999@cluster0.1aheaa1.mongodb.net/?retryWrites=true&w=majority")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001392852605")
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001739848270")
+	API_ID = int(os.environ.get("API_ID", "25502576"))
+	API_HASH = os.environ.get("API_HASH", "f0f35dbb5b0081cdc8d3c9d5383c4628")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5612068072:AAENqKvWMSFvJ0RLiFNPPYNxv19645gn7E0")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "AfsjsgsvBot")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "--1001826734158"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5123039648"))
+	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://SujanC7:SujanC7@cluster0.vst9zln.mongodb.net/?retryWrites=true&w=majority")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001861445521")
+	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001826734158")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
@@ -33,16 +33,16 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 📡 **Hosted on:** [Heroku](https://heroku.com)
 
-👑 **Owner:** @Bavabee
+👑 **Owner:** @Sujan_Ch
 
-🧑🏻‍💻 **Developer:** @HMF_Owner_1
+🧑🏻‍💻 **Developer:** @Sujan_BotZ
 
-👥 **Support Group:** @HangOverXD
+👥 **Support Group:** @Sujan_BotZ_Support
 
-📢 **Updates Channel:** @simplysouth_links 
+📢 **Updates Channel:** @Sujan_BotZ 
 """
 	ABOUT_DEV_TEXT = f"""
-**🌐 This Bot Was Devloped By** : @HMF_Owner_1"""
+**🌐 This Bot Was Devloped By** : @Sujan_Ch"""
 	SHORTENER_API_MESSAGE = """To add or update your Shortner Website API, `/apikey api`
             
 Ex: `/apikey 6LZq851sXofffPHugiKQq`
