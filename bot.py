@@ -42,7 +42,7 @@ from plugins.users_api import get_user, update_user_info
 
 MediaList = {}
 
-START_MEDIA = "https://graph.org/file/6b16ad03f00948d2d719e.jpg"
+START_MEDIA = "https://graph.org/file/a18cf9f447a1c34e5a20a.jpg"
 
 START_TEXT = """**Hɪ/Hᴇʟʟᴏ [{}](tg://user?id={})**
 
@@ -64,7 +64,7 @@ ABOUT_BOT_TEXT = f"""
 This is Permanent File/Links Store Bot!
 Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
-🤖 **My Name:** [Vnshortener File Store](https://t.me/Sujan_BotZ)
+🤖 **My Name:** [Shortener File Store](https://t.me/Sujan_BotZ)
 
 📝 **Language:** [Python3](https://www.python.org)
 
