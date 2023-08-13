@@ -20,7 +20,7 @@ class Config(object):
 	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1001362659779 -1001255795497").split()))
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
 	BASE_SITE = os.environ.get("BASE_SITE", "http://urlspay.in")
-	DOMAIN = os.environ.get("DOMAIN", "")
+	DOMAIN = os.environ.get("DOMAIN", "http://urlspay.in")
 	ABOUT_BOT_TEXT = f"""
 This is Public Files Store Bot With Shortener Support!
 Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
