@@ -7,8 +7,8 @@ import time
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", "25502576"))
 	API_HASH = os.environ.get("API_HASH", "f0f35dbb5b0081cdc8d3c9d5383c4628")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6369183180:AAE8nXrcaNI-ZPMtdn4AxI6Uf99wZ-6BWt0")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME", "VnshortenerFileStoreBot")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6358983740:AAFEd3h7Tdn2VtJbuaYB6k8LzHOkzGQkvzM")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "Shortener_File_Store_Bot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001936300025"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5123039648"))
 	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://SujanC7:SujanC7@cluster0.vst9zln.mongodb.net/?retryWrites=true&w=majority")
@@ -22,10 +22,10 @@ class Config(object):
 	BASE_SITE = os.environ.get("BASE_SITE", "Vnshortener.com")
 	DOMAIN = os.environ.get("DOMAIN", "Vnshortener.com")
 	ABOUT_BOT_TEXT = f"""
-This is Permanent Files Store Bot!
+This is Public Files Store Bot With Shortener Support!
 Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
-🤖 **My Name:** [Vnshortener File Store](https://t.me/{BOT_USERNAME})
+🤖 **My Name:** [Shortener File Store](https://t.me/{BOT_USERNAME})
 
 📝 **Language:** [Python3](https://www.python.org)
 
@@ -52,7 +52,7 @@ Current Website: {base_site}
 Current Shortener API: `{shortener_api}`"""
 
 PREFIX = ["/", ".", "?", "#", "@", "₹", "+", ":", "!", "^", "|"]
-START_MEDIA = "https://graph.org/file/6b16ad03f00948d2d719e.jpg"
+START_MEDIA = "https://graph.org/file/a18cf9f447a1c34e5a20a.jpg"
 START_TEXT = """Hɪ/Hᴇʟʟᴏ [{}](tg://user?id={})
 
 I'ᴍ Uʟᴛʀᴀ Fᴀsᴛ Tᴇʟᴇɢʀᴀᴍ Cᴏᴜʟᴅ Sᴛᴏʀᴀɢᴇ Bᴏᴛ  Fᴏʀ [Vnshortener](https://vnshortener.com). Sᴇɴᴅ Mᴇ Aɴʏ Fɪʟᴇs/Lɪɴᴋs Aɴᴅ Sᴇʟᴇᴄᴛ Mᴇᴛʜᴏᴅ Wᴀɪᴛ Fᴇᴡ Sᴇᴄᴏɴᴅs Bᴏᴛ Wɪʟʟ Bᴇ Uᴘʟᴏᴀᴅ Tᴏ Oᴜʀ Sᴇʀᴠᴇʀ Aɴᴅ Gᴇɴᴀʀᴀᴛᴇ  [Vnshortener](http://vnshortener.com) ......
@@ -77,7 +77,7 @@ Sᴛᴇᴘ Nᴏ 2 : Tʜᴇɴ Cᴏᴍ Aɢᴀɪɴ Hᴇʀᴇ Aɴᴅ Usᴇ /api Tᴏ
 
 Exᴀᴍᴘʟᴇ : `/api s18ғsjsn737d19f08f382h19d9sd473774hd58` """
 
-ABOUT_TEXT = """🤖 Name :  Vnshortener File Store Bot 
+ABOUT_TEXT = """🤖 Name :  Shortener File Store Bot 
 
 🔠 Language  : Python3
 📚 Library   : Teleton And Pyrogram
